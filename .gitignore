@@ -1,7 +1,18 @@
 
 # Created by https://www.toptal.com/developers/gitignore/api/venv,pycharm,database,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=venv,pycharm,database,visualstudiocode
-
+# Distribution / packaging
+.Python
+venv/
+env/
+*.sqlite3
+.idea/# Project asset folders
+media/# Database
+db.sqlite3# Editor directories and files
+.idea# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 ### Database ###
 .idea
 *.accdb
